@@ -1,0 +1,8 @@
+{
+    "workbench.colorTheme": "Andromeda Bordered",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "eslint.alwaysShowStatus": true,
+}
