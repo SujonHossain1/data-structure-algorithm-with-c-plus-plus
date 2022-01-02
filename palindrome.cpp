@@ -4,14 +4,11 @@ using namespace std;
 int main()
 {
     int n;
+    cin >> n;
 
-    cout << "Hello World" << endl;
-
-    for (int i = 0; i < n; i++)
+    for (int i = 1; i < n; i++)
     {
-        int num, digit, rev = 0;
-
-        num = i;
+        int num = i, digit = 0, rev = 0;
 
         while (num != 0)
         {
@@ -19,5 +16,11 @@ int main()
             rev = (rev * 10) + digit;
             num = num / 10;
         }
+
+        if (i == rev)
+        {
+            cout << rev << " ";
+        }
     }
+    cout << endl;
 }

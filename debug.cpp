@@ -1,14 +1,20 @@
 #include <iostream>
-#include <vector>
-#include <string>
-
 using namespace std;
 
 int main()
 {
-    string arr[20] = {"sujon", "something"};
-    for (int i = 0; i < 2; i++)
+    int num, i = 0;
+
+    cout << "Enter an integer number : ";
+    cin >> num;
+
+    while (i < num)
     {
-        cout << arr[i] << endl;
+        for (int j = 0; j <= i; j++)
+        {
+            cout << "*";
+        }
+        cout << endl;
+        i++;
     }
 }
