@@ -1,11 +1,14 @@
 {
-    "workbench.colorTheme": "Andromeda Bordered",
-    "editor.formatOnSave": true,
+    // "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
         "source.organizeImports": true
     },
     "eslint.alwaysShowStatus": true,
-    "code-runner.executorMap": {
-        "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && ./$fileNameWithoutExt && rm ./$fileNameWithoutExt",
-    }
+    // "code-runner.executorMap": {
+    //     "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && ./$fileNameWithoutExt && rm ./$fileNameWithoutExt",
+    // },
+    "files.associations": {
+        "__locale": "cpp",
+        "ostream": "cpp"
+    },
 }
